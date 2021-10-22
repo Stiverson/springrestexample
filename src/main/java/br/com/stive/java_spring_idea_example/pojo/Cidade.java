@@ -1,11 +1,10 @@
 package br.com.stive.java_spring_idea_example.pojo;
 
 public class Cidade {
-
-    private int numeroHabitantes;
-    private int numeroEdificios;
     private String nome;
     private String nomePrefeito;
+    private int numeroHabitantes;
+    private int numeroEdificios;
     private boolean cidadeMetropolitana;
 
     public boolean isCidadeMetropolitana() {

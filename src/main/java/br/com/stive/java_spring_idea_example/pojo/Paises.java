@@ -4,13 +4,51 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Paises {
-    public List<Estado> getListaPaises() {
-        return listaPaises;
+    private String nome;
+    private String presidente;
+    private String capital;
+    private int posicaoMundial;
+    private List<Estado> listaEstados = new ArrayList<Estado>();
+
+    public String getPresidente() {
+        return presidente;
     }
 
-    public void setListaPaises(List<Estado> listaPaises) {
-        this.listaPaises = listaPaises;
+    public void setPresidente(String presidente) {
+        this.presidente = presidente;
     }
 
-    private List<Estado> listaPaises = new ArrayList<Estado>();
+    public String getCapital() {
+        return capital;
+    }
+
+    public void setCapital(String capital) {
+        this.capital = capital;
+    }
+
+    public int getPosicaoMundial() {
+        return posicaoMundial;
+    }
+
+    public void setPosicaoMundial(int posicaoMundial) {
+        this.posicaoMundial = posicaoMundial;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public List<Estado> getListaEstados() {
+        return listaEstados;
+    }
+
+    public void setListaEstados(List<Estado> listaEstados) {
+        this.listaEstados = listaEstados;
+    }
+
+
 }
