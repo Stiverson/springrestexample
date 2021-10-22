@@ -1,6 +1,7 @@
 package br.com.stive.java_spring_idea_example;
 
 import br.com.stive.java_spring_idea_example.pojo.Cidade;
+import br.com.stive.java_spring_idea_example.pojo.Estado;
 import com.google.gson.Gson;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -42,7 +43,12 @@ public class ExampleApplication {
         System.out.println(jsonCampinas);
 
 
+        Estado saoPaulo = new Estado();
+        saoPaulo.getListaCidades().add(piracicaba);
+        saoPaulo.getListaCidades().add(campinas);
 
+        String jsonSaoPaulo = gson.toJson(saoPaulo);
+        System.out.println(jsonSaoPaulo);
 
         //SpringApplication.run(ExampleApplication.class, args);
     }
