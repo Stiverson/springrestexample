@@ -5,6 +5,16 @@ import java.util.List;
 
 public class Estado {
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    private String nome;
+
     private List<Cidade> listaCidades = new ArrayList<Cidade>();
 
     public List<Cidade> getListaCidades() {
