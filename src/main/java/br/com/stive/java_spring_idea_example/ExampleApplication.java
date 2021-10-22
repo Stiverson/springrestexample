@@ -59,6 +59,7 @@ public class ExampleApplication {
         saoPaulo.setGovernador("João Dória");
         saoPaulo.getListaCidades().add(piracicaba);
         saoPaulo.getListaCidades().add(campinas);
+        saoPaulo.getListaCidades().add(jaguariuna);
 
         /*String jsonSaoPaulo = gson.toJson(saoPaulo);
         System.out.println(jsonSaoPaulo);*/
