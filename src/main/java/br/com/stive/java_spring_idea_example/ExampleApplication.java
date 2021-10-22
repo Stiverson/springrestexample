@@ -50,7 +50,7 @@ public class ExampleApplication {
         String jsonSaoPaulo = gson.toJson(saoPaulo);
         System.out.println(jsonSaoPaulo);
 
-        ////teste
+
 
         //SpringApplication.run(ExampleApplication.class, args);
     }
